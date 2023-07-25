@@ -1,10 +1,13 @@
 # ProjectTrainee
 
+## Understanding Clean Architecture
+To understand Clean Architecture, navigate to the `src/app/countries` folder and observe the subfolders data, domain, and presentation. Additionally, explore the `src/@core` directory, which contains domain/usecase and services folders, used for connections and use cases.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm install` and then `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
