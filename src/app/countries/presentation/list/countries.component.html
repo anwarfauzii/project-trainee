@@ -1,0 +1,19 @@
+<ngx-datatable class="material" [rows]="rows" [loadingIndicator]="isLoadingIndicator">
+    <ngx-datatable-column name="Negara" prop="name.common">
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Benua" prop="region">
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Bagian Benua" prop="subregion">
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Ibukota Negara" prop="capital">
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Populasi" prop="population">
+    </ngx-datatable-column>
+    <ngx-datatable-column name="Bendera" prop="flags">
+        <ng-template let-row="row" let-flags="value" ngx-datatable-cell-template>
+            <div class="cell-line-height">
+                <img [src]="flags.png" alt="flags png" width="30">
+            </div>
+        </ng-template>
+    </ngx-datatable-column>
+</ngx-datatable>

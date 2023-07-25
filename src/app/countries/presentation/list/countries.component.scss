@@ -1,0 +1,28 @@
+.ngx-datatable {
+  font-family: Arial, sans-serif;
+}
+
+.datatable-header {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.datatable-body-row:hover {
+  background-color: #f0f0f0;
+}
+
+.datatable-row-even {
+  background-color: #f9f9f9;
+}
+
+.datatable-row-odd {
+  background-color: #ffffff;
+}
+
+.datatable-column-left {
+  text-align: left;
+}
+
+.datatable-column-right {
+  text-align: right;
+}
